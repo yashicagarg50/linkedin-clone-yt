@@ -14,7 +14,7 @@ function Header() {
      
 
       <div className="header__left">
-        <img src='linkedin.jpg' />
+        <img src="./linkedin.jpg" alt="" />
 
         <div className="header__search">
             <SearchIcon />
@@ -28,7 +28,7 @@ function Header() {
         <HeaderOption Icon ={BusinessCenterIcon} title='Jobs'/>
         <HeaderOption Icon ={ChatIcon} title='Messaging'/>
         <HeaderOption Icon ={NotificationsIcon} title='Notification'/>
-        <HeaderOption avatar ="./me.jpg" title='me' />
+        <HeaderOption avatar ="./me.jpg" title='Me' />
       </div>
     
     
