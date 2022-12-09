@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-// import SearchIcon from 'd:/GitHub/linkedin-clone-yt/node_modules/@material-ui/icons/Search';
+import SearchIcon from 'd:/GitHub/linkedin-clone-yt/node_modules/@material-ui/icons/Search';
 function Header() {
   return (
     <div className="Header">
@@ -10,7 +10,7 @@ function Header() {
         <img src='' alt=''></img>
 
         <div className="header__search">
-            {/* <SearchIcon /> */}
+            <SearchIcon />
             <input type="text" />
         </div>
 
